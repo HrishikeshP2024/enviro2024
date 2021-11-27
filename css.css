@@ -1,0 +1,133 @@
+        body {
+          background-image: linear-gradient(#ECE0D0, #688680);
+        }
+        .header {
+            padding: 5px;
+            text-align: center;
+            background: #7D977C;
+            color: white;
+            font-size: 30px;
+            border-radius: 5px;
+        }
+        .content {
+            background-color: black;
+        }
+
+        .text {
+            color:#824E6C
+        }
+        .img{
+            float: left;
+            height: 75px;
+            width:350px;
+            padding: 6px;
+            border-radius: 5px;
+        }
+        .th
+        {
+            font-size: 25px;
+        }
+        .mnctr {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .mncen {
+            position: absolute;
+            font-size: 72px;
+            font-family:"Moon 2.0 Bold";
+            color:rgb(148, 0, 247);
+            text-emphasis-color: purple;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+         
+          .column {
+            align: center;
+            float: left;
+            width: 32.5%;
+            padding: 5px;
+            margin-left: 4px;
+          }
+          .h {
+              text-align:center;
+              text-emphasis: italic;
+              color: #216960;
+          }
+          .column1 {
+            align: center;
+            float: left;
+            width: 48%;
+            padding: 5px;
+            margin-left: 4px;
+          }
+          .img1
+          {
+            border-radius: 5px 50px;
+          }
+          .img2{
+              border-radius: 20px;
+          }
+          .btn{
+              align:center;
+              color:white;
+              font-size: 30px;
+              padding: 20px 40px;
+
+          }
+          .joinus {
+              background-color :#A5AE93 ;
+
+          }
+        .joinus:hover 
+        {
+            background-color: #53806B ;
+        } 
+        .menubar {
+          overflow: hidden;
+          background-color: black;
+        }
+        
+        .menubar a {
+          float: right;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 35px ;
+          text-decoration:salmon;
+          font-family:"Gill Sans";
+          border-radius: 20px;
+          font-size: 20px;
+        }
+        
+        .menubar a:hover {
+          background-color: #FFEDCB;
+          color: rgb(0, 0, 0);
+        }
+        
+        .menubar a.active {
+          background-color: #005B4B;
+          color: whitesmoke;
+        }
+          .footer {
+            padding: 1px;
+            text-align: center;
+            background: #044750;
+            color: whitesmoke;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+        .text1 {
+            color:whitesmoke;
+            font-size:10px;
+        }
+        
+
+
+          
+        
